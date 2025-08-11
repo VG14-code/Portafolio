@@ -1,4 +1,10 @@
 import React from 'react';
+import corporativo from '../assets/corporativo.png';
+import inventarios from '../assets/inventarios.png'; 
+import aplicaciones from '../assets/aplicaciones.jpg';
+import dashboardAdmin from '../assets/dashboardAdmin.png';
+import reservas from '../assets/reservas.png';
+import blog from '../assets/blog.png';
 
 export const Portafolio = () => {
   return (
@@ -15,7 +21,7 @@ export const Portafolio = () => {
         {/* Proyecto 1 */}
         <div className="col">
           <div className="card h-100 shadow-sm border-0">
-            <img src="/images/corporativo.png" className="card-img-top" alt="Proyecto Web Corporativo" />
+            <img src={corporativo} className="card-img-top" alt="Proyecto Web Corporativo" />
             <div className="card-body">
               <h5 className="card-title text-primary">Proyecto Web Corporativo</h5>
               <p className="card-text text-muted">
@@ -28,7 +34,7 @@ export const Portafolio = () => {
         {/* Proyecto 2 */}
         <div className="col">
           <div className="card h-100 shadow-sm border-0">
-            <img src="/images/inventarios.png" className="card-img-top" alt="Sistema de Gestión Interna" />
+            <img src={inventarios} className="card-img-top" alt="Sistema de Gestión Interna" />
             <div className="card-body">
               <h5 className="card-title text-primary">Sistema de Gestión Interna</h5>
               <p className="card-text text-muted">
@@ -41,7 +47,7 @@ export const Portafolio = () => {
         {/* Proyecto 3 */}
         <div className="col">
           <div className="card h-100 shadow-sm border-0">
-            <img src="/images/aplicaciones.jpg" className="card-img-top" alt="Aplicación Móvil Híbrida" />
+            <img src={aplicaciones} className="card-img-top" alt="Aplicación Móvil Híbrida" />
             <div className="card-body">
               <h5 className="card-title text-primary">Aplicación Móvil Híbrida</h5>
               <p className="card-text text-muted">
@@ -54,7 +60,7 @@ export const Portafolio = () => {
         {/* Proyecto 4 */}
         <div className="col">
           <div className="card h-100 shadow-sm border-0">
-            <img src="/images/dashboardAdmin.png" className="card-img-top" alt="Dashboard Administrativo" />
+            <img src={dashboardAdmin} className="card-img-top" alt="Dashboard Administrativo" />
             <div className="card-body">
               <h5 className="card-title text-primary">Dashboard Administrativo</h5>
               <p className="card-text text-muted">
@@ -67,7 +73,7 @@ export const Portafolio = () => {
         {/* Proyecto 5 */}
         <div className="col">
           <div className="card h-100 shadow-sm border-0">
-            <img src="/images/reservas.png" className="card-img-top" alt="Sistema de Reservas" />
+            <img src={reservas} className="card-img-top" alt="Sistema de Reservas" />
             <div className="card-body">
               <h5 className="card-title text-primary">Sistema de Reservas</h5>
               <p className="card-text text-muted">
@@ -80,7 +86,7 @@ export const Portafolio = () => {
         {/* Proyecto 6 */}
         <div className="col">
           <div className="card h-100 shadow-sm border-0">
-            <img src="/images/blog.png" className="card-img-top" alt="Blog Tecnológico" />
+            <img src={blog} className="card-img-top" alt="Blog Tecnológico" />
             <div className="card-body">
               <h5 className="card-title text-primary">Blog Tecnológico</h5>
               <p className="card-text text-muted">
